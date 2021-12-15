@@ -13,6 +13,7 @@ rm -f grpc-gateway.zip
 mv grpc-gateway-2.0.0 grpc-gateway
 
 cd grpc-gateway/protoc-gen-grpc-gateway/
-go build go install
+go build 
+go install
 
 echo "finish."
